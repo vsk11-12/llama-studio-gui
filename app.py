@@ -996,7 +996,7 @@ def main(page: ft.Page):
                     messages.append({"role": m["role"], "content": m["content"]})
                 messages.append({"role": "user", "content": full_prompt})
 
-                # Run blocking LLM call in a thread pool so we don't block event loop
+                # Run blocking LLM call in a thread pool so it does not block event loop
                 loop = asyncio.get_event_loop()
                 llm  = await loop.run_in_executor(None, get_llm, settings)
 
