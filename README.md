@@ -1,4 +1,4 @@
-# Local GGUF Chat
+# Llama Studio GUI
 
 A privacy-first, Claude-inspired desktop chat application for running local GGUF language models. Built with **Python** and **Flet**, it brings a sleek, modern conversational interface directly to your machine with zero cloud dependencies—ensuring your prompts, files, and conversations remain 100% local.
 
